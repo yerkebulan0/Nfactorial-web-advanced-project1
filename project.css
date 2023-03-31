@@ -11,6 +11,16 @@
     justify-content: space-between;
 }
 
+.header-list {
+    display: flex; 
+    gap: 40px;
+    align-items: center;
+}
+
+.header-list li {
+    list-style-type: none;
+}
+
 .text1{
     width: 495px;
     height: 192px;
