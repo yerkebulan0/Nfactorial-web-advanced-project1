@@ -2,6 +2,15 @@
     margin: 0;
 }
 
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 62px;
+    padding: 12px 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .text1{
     width: 495px;
     height: 192px;
