@@ -43,16 +43,9 @@
         </button>
       </div>
     </header>
+
     <div
-      style="
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 100px 80px;
-        gap: 165px;
-        justify-content: space-between;"
-        
-    >
+    class="first">
       <div
         class="content1"
         
@@ -121,8 +114,6 @@
       
     </div>
     <div class="thirdPart">
-      <div class="trd1">
-        <div class="trdTXT">
           <b class="GET">Lets Get Started</b>
           <b class="THE">The best tool to start your career journey with. Get connected 
             with the best companies — just share your CV to get started.</b>
@@ -136,13 +127,7 @@
               <p class="find2">Find Job</p>
             </button>
 
-
           </div>
-
-        </div>
-
-      </div>
-
     </div>
 
     <div class="fourth">
@@ -176,22 +161,39 @@
       <button class="but3">
         <label class="l3">How it works</label>
       </button>
-      <img src="./images/Twitter.png" style="width: 24px;
-      height: 24px;"/>
-      <img src="./images/Instagram.png" style="width: 24px;
-      height: 24px;"/>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <rect width="24" height="24" fill="url(#pattern0)"/>
+        <defs>
+        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+        <use xlink:href="#image0_19_660" transform="scale(0.0111111)"/>
+        </pattern>
+        <image id="image0_19_660" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAABmJLR0QA/wD/AP+gvaeTAAAFXklEQVR4nO3cWahVVRzH8c+9plmZpkEDNtA8ExFNJDbYQNAIDQ9FD9EEBfUQNENQb8295EMFTVARIRU0EUlZCTZQYmalZFqGZWaKZFevPaxz8Xa73rPP3mvvdYf1hR/3cu7Z+//fv7v2Pmv9z1qLTCaTyWQymUwmk8lkMplMpkO6UidQM1MwE8fgQExuvb4Oy/A1PsT6JNmNcLpwEd5ED7a2UQ/ewAXKNbwuHFc56xHGTHylvbnb0xeY0UG8c/EZboyT/jZuQHfsk0ZgAh5Br/Im96kXD2OH7cTaBddhYev9f7Rei8aJrRM/EfOkEZiE91Q3eKDes83APXAFXsXGAe+7PfYFvdDv5HfFPnlJJmKu+Cb3aSEW2f6dssD2W34pdsJf/QL04tqYAUrynPpMbqe/cHTsCzprkEC9uC12oA64cpCcmtJGnD5IThOrXtQdQwR9RPP98cn4dYic6m7J5/bLpQsn40ncUvXCnmkT/EXsWDVIB9zZJp+69BkOwf7CHTUbK1t/e1+EHtlrBZL4HIdWDVSAcbZdXJPaLPSz1w7yt2XYM8bFvVUwmfW4OkbAIZhVMJem9DsOa5d00aa+ruD7JuFZPI/dCx7TKWfXdN4y/InzsSTWCR/X+X96DW4WuZ+JD0rkUodWq6HGcU2FhL7GGRFzSfF8HqglCjwuynB4hOTmChWyqp/MA4fATet1ofxaG99ESvRboTi1c8k8NkfKo6wmlMy7MLdHTng9XsKlOjN9sO5VkyrbQAozRfiUrSP5DXhF+PA8AeOHyGNxTTnUanSnQ+db8WiZQB3yN74UBkHLsQorWj8fwoUN5DAYW4RGsLXuQOMwX9oWlVJ/ljWu0x7AFlyCX8oGHOFsKHtgUaOP6vf7KqGbtqZs0BHMb3UH+FwYkV2FXVuvHY2l0t/OTerVsgYWbdGrhUL380IRZT5uwhxja07E0rIHFq1DrOr3+wSc1NJY44eyBxZt0fPKBhhlLCp7YNF+9D5CP3Yss0kYtG0qc3DRFr1S+EAcyyxQ0mQ660c/WDbIKKGxx+c4fC99FyuVzqluYXFmSF+mTKG1KpZHOx2Cz9NMUWm4MQf/NB10fCtw6lbWpM6P4lwJJggTvVMb0IRWa3Zy0P/YAfcZ/c/sB2IZVpXThCJ9akPqUI8wWBs29K0bmWt0tfBXYppUll1wJKb2e20azsNH0ptUVb04PoJPlZkolEy3Ct/xpTYmtl6OZ1UY7ZVlszCD8hTxp32lZjMuFxrSsGC6/y65GC2aHdMkqrVowrcrPRquA9TMb8Kkno2pExnIeMNnhmcMXRrXnrhMw3fSm1RVw6I71479ha96UptVVqtEWh7RBFPVs4q1bm3CqTX4UStdwjqWvj72SFD0RfNNMkVY8LlceiOH0lN1GdCfJhZiduNYYTXV8ULf+2Ds3UDsdswRBiY9qROpg1n4WfqW/LbEdea6mCxsQRFjT42qekeEddvDjW5hOe8v0hu8VdgOY1SZ3C08//p2akmtXtxtFG3YNR334Efpze3TBsN8aF2EvtmldwnTebdIb2x/zRN2JEjKULfRLBwklEHXCZW+nYTR33QcIKwePdbw/PT+G/cK81C2JM5lSLpxvVA2TN0qO9VbOCK+JfUyFfcLrTq1ge30qcG34BlR7C4Yvlp6QwfqY1xc36WnYUdh0dA8aQcfa/CY/64YG7XsJxSO5mtmPscKPI3LjLBBR8zO+27CrKUzheLRMbbtbluGf4T52IvxCd5VYQ1JauocJXUJWwkfLHQH98VewtSEvv0ueoTBxFrhi94N+EnYsmKpcJdkMplMJpPJZDKZTCaTyWQyY5N/AdKCSy6SF0A+AAAAAElFTkSuQmCC"/>
+        </defs>
+        </svg>
+        
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <rect width="24" height="24" fill="url(#pattern0)"/>
+          <defs>
+          <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image0_19_661" transform="scale(0.0111111)"/>
+          </pattern>
+          <image id="image0_19_661" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAABmJLR0QA/wD/AP+gvaeTAAAFgklEQVR4nO2d328UVRTHPyvBxUQa9UlLrT8a1EoBFRQrNCE+aDSK/AM+mogWfLN/ggQNb/5ohEcFSTT4o2pV0EQeTIhGTNSGWDE8CALVtEWw3e2uD3fWVN07c2fnnLmz2/tJTkIus/ec883Mnbln7txCIBAIBAKBQCAQCBSUknL/ZeABYCuwDrgduB64Gliu7NvGPPAncAY4CXwHHAW+AuY8xdQy9wCjwB9AvU3sd+BV4C4FPcRZD3yIf9GyWA34AHMFFo4VwF6ggn+hpKwCvBTlVghWA9/iXxgt+wboE1OrRTYC5/AvhrZNAYNCmqXmXmAmIcBOshlgg4hyKVgNnM8YeDvab8CtAvo5sQIzbvlO2pedAK7KrKIDez0kVzTbk1nFBNbSWY9wrVoFM2dQ46MCJFkUey+jllbuxsyafCcoaXPA80B3ZCNRm8tvayhN10c9iaFpI03yHEnx+1dSq5hAmfYqELlad5Ncu1P8fgq40kXAK1wOwpQ6r3E8tt1JUzq+DtjkcqCr0FtTOG8nnnRsi+NBiUAaHMb/Za5hc5gxuZWbYcPecRHQ9TL5Aeh3PFaSSWAcOAZMAKcxNQeALqA3imsL8DA5To8X8T0wINXZBfI7y6rAm5j7QhpKwGbgQNRHXvGeTxlnLGkvp1ZtHPNeMSv9wGc5xfyXQLz/oB3sJeApyYAjngYu5xC/GJpBnsO8QNDiPvRLumJoinyHZKAW+tEVWwyN4C7hdib3AjuBjzFPHhcjm4jahoEbHfrZhN4wIoZGcEljcg+wH7cniCqwD1iV0OcOpVzEkA5sPMHfdmC2hX5ngG0JfR9RyEcMyaCqxD/CPQcsZOh/AdgV0/+dyD9niyEZ1BsxfraTTeTFYsed2W8J5ySGZFC2GV8PrQ0XNpuheRkUzJS9o4X+CXt9Zb+gn4a9bvFVAk4J+hFDKqCXLf33olOfqGKulGa8JugnEdd6tBTHLO1PAMsU/C2L+m7Glwr+rOQt9ISl/VFFn7a+bbGokLfQpy3tmnVk20pQWywquBb+pQb8MubThv8yi/ncQoOLwEpLLFIlzkQd8z6jfVDzHQDkL3SzMwvgV0WfZyztXYo+/0feQvda2n9W9DlpabfFokLeQtte8I4p+rT1nevL5ryF3mJpfxdTn5Cmin0x4pCCv8xIzaAmsd+h9wn6adioxVcJ+EXQjxiSyW+2+FiF7Dcx08ANFl9DwjmJIRnUgRg/jyBT81gAHo/xc0g4JzEkg6oSfyPaRfbC/86Y/gcy9t82QteBTxP8baO1YWQaeCym3xLwuUI+YkgHVscsbomjG1NPdhlKKpgbn21MbjCslIsYGsFdxixuSaIHeBbzMf+PmLrIbPTvMeAZ7DXnxQxiahtLTug6ZlFLHhOHNegu1BRDK8CG2E6r5ltkEP3VsGJoBlnHDCM7JAPG3PiG0RsuVITOa9nuEcy6i6wMoPN00cxEl+3muRB9ATiIqYuk+XCnhJnxHUL+OTnOnBaiF/3TilPAJ5gXqROY+sRs9H9dwE1RXEPAQ8DNHmIU/bSiUz8WkrC3XQR0LZOecDxuKeKkjavQX2QIpNM56nKQ6xhdxrx7u7blcDqTKcy0v5J0oOsZPYe5mwf+zUEcRE5LJ24jkcVqKG5COFaABItihzNqGcsazEoj30n6tgo5bKn5YgES9W27M6voQBn42kNyRbHjkQa50IfZbM930nnbWeAWAf1SsZGltWXmNGZfbC9sYGmc2WfxKHKDPjp7zD6Oh+HCRhmzjWQnPfrNAy/guAtY3qwF3qe9Z5A1zKJLiTc96qzHfOo2hX/hXO1CFLPKnqPafx5kOXA/ZsuydcBtmGrXSvxdkvOYtzTN/jyIeIEoEAgEAoFAIBAIBArP3wkgJZFFV9suAAAAAElFTkSuQmCC"/>
+          </defs>
+          </svg>
+           
+          
+          
+  
     </div>
 
     <div class="menu2">
-      <div class="but4">
-        <label class="l4">Credits: photos from Unsplash.com, icons from Icons8, graphics from craftwork.design, font Kanit from fonts.google.</label>
-      </div>
+        Credits: photos from <a href="https://google.com">Unsplash.com</a>, icons from Icons8, graphics from craftwork.design, font Kanit from fonts.google.
     </div>
   </div>
 
-<div class="lst">
+
   <b class="nfac">Made with ✨❤️ at nFactorial in 2022.</b>
-</div>
+
 </div>
 </body>
 </html>
