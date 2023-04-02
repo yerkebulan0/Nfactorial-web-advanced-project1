@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color: #F1F1F1;
+    font-family: 'Kanit', sans-serif;
 }
 
 .header {
@@ -295,7 +296,8 @@ height: 74px;
 .Title{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: start;
+    justify-content: center;
     padding: 0px;
     gap: 32px;
     height: 214px;
@@ -310,6 +312,7 @@ height: 74px;
     align-items: center;
     text-align: center;
     color: #000000;
+   
 }
 .get{
     width: 495px;
