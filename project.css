@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     background-color: #F1F1F1;
     font-family: 'Kanit', sans-serif;
@@ -14,7 +14,7 @@ body{
 }
 
 .header-list {
-    display: flex; 
+    display: flex;
     gap: 40px;
     align-items: center;
 }
@@ -23,23 +23,24 @@ body{
     list-style-type: none;
 }
 
-.text1{
+.text1 {
     width: 495px;
     height: 192px;
     font-size: 4em;
     line-height: 64px;
     display: flex;
     align-items: center;
-    
+
 }
-.text2{
+
+.text2 {
     font-size: 16px;
     line-height: 22px;
     display: flex;
     align-items: center;
     width: 495px;
     height: 44px;
-    
+
 }
 
 .first {
@@ -51,44 +52,49 @@ body{
     justify-content: space-between;
 }
 
-.second{
+.second {
     height: 562px;
-    background-color: 
-    #E1DEE7;
+    background-color:
+        #E1DEE7;
     border-radius: 32px;
     padding: 100px 80px 0px 80px;
     gap: 165px;
     margin-top: 100px;
-   
+
 }
-.numbs{
+
+.numbs {
     display: flex;
     justify-content: center;
     justify-content: space-between;
     margin-top: 86px;
 }
-.txt{
+
+.txt {
     display: flex;
     justify-content: center;
     justify-content: space-between;
     margin-top: 48px;
     height: 28px;
-    
+
 }
+
 .txt b {
     font-size: 24px;
     line-height: 28px;
 }
-.content1{
-    display: flex; 
-    flex-direction: column; 
+
+.content1 {
+    display: flex;
+    flex-direction: column;
     align-self: center;
     padding: 0px;
     gap: 48px;
     margin-left: 80px;
-    
+
 }
-.rows{
+
+.rows {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -99,70 +105,76 @@ body{
 
 
 }
-.txt1{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 48px;
 
-width: 400px;
-height: 186px;
-}
-.txt2{
+.txt1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 48px;
-    
+
     width: 400px;
     height: 186px;
 }
-.txt3{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 48px;
 
-width: 400px;
-height: 186px;
-}
-.ff{
+.txt2 {
     display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
 
-width: 400px;
-height: 74px;
+    width: 400px;
+    height: 186px;
 }
-.ff1{
+
+.txt3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    width: 400px;
+    height: 186px;
+}
+
+.ff {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
-    
+
     width: 400px;
     height: 74px;
-    
 }
-.ff2{
+
+.ff1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
-    
+
     width: 400px;
     height: 74px;
 
 }
 
-.thirdPart{
+.ff2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 400px;
+    height: 74px;
+
+}
+
+.thirdPart {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -170,7 +182,7 @@ height: 74px;
     gap: 48px;
 }
 
-.GET{
+.GET {
     width: 495px;
     height: 64px;
     font-weight: 700;
@@ -180,7 +192,8 @@ height: 74px;
     align-items: center;
     color: #000000;
 }
-.THE{
+
+.THE {
     width: 495px;
     height: 44px;
     font-weight: 500;
@@ -190,7 +203,8 @@ height: 74px;
     align-items: center;
     color: #000000;
 }
-.Sf{
+
+.Sf {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -199,7 +213,8 @@ height: 74px;
     width: 757px;
     height: 50px;
 }
-.search{
+
+.search {
     box-sizing: border-box;
     width: 619px;
     height: 50px;
@@ -211,9 +226,10 @@ height: 74px;
     gap: 12px;
     padding: 13px;
 }
-.input{
+
+.input {
     /* position: absolute; */
-    
+
     width: 495px;
     height: 22px;
     font-size: 16px;
@@ -225,14 +241,17 @@ height: 74px;
     border: none;
 
 }
-.search img{
+
+.search img {
     width: 24px;
     height: 24px;
 }
-.input:focus{
+
+.input:focus {
     outline: none;
 }
-.find1{
+
+.find1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -246,7 +265,8 @@ height: 74px;
     border: none;
 
 }
-.find2{
+
+.find2 {
     width: 58px;
     height: 18px;
     font-weight: 500;
@@ -257,7 +277,8 @@ height: 74px;
     text-align: center;
     color: #FFFFFF;
 }
-.fourth{
+
+.fourth {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -265,35 +286,38 @@ height: 74px;
     gap: 128px;
 }
 
-.lastPH{
+.lastPH {
     border-radius: 24px;
 }
-.last{
+
+.last {
     width: 700px;
     height: 466.67px;
     left: -40px;
     top: -23px;
 }
 
-.info{
+.info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 48px;
-    
+
     height: 214px;
 }
-.textlast{
+
+.textlast {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 32px;
-  
+
     height: 214px;
 }
-.Title{
+
+.Title {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -302,7 +326,8 @@ height: 74px;
     gap: 32px;
     height: 214px;
 }
-.Upload{
+
+.Upload {
     width: 391px;
     height: 56px;
     font-weight: 600;
@@ -312,9 +337,10 @@ height: 74px;
     align-items: center;
     text-align: center;
     color: #000000;
-   
+
 }
-.get{
+
+.get {
     width: 495px;
     height: 44px;
     font-weight: 500;
@@ -323,22 +349,24 @@ height: 74px;
     display: flex;
     align-items: center;
     color: #000000;
-    }
-    .uplo{
-        width: 48px;
-        height: 18px;
-      
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 18px;
-        
-        display: flex;
-        align-items: center;
-        text-align: center;
-
-        color: #FFFFFF;
 }
-.but{
+
+.uplo {
+    width: 48px;
+    height: 18px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.but {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -354,7 +382,8 @@ height: 74px;
     border: none;
 
 }
-.footer{
+
+.footer {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -367,26 +396,29 @@ height: 74px;
 
 
 }
-.frame22{
+
+.frame22 {
     display: flex;
     justify-content: space-between;
     padding: 0px;
-    width:100%;
+    width: 100%;
     height: 38px;
 
 }
-.menu1{
+
+.menu1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 0px;
     gap: 16px;
-    
+
     height: 38px;
 
 }
-.but1{
+
+.but1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -399,8 +431,8 @@ height: 74px;
     border: none;
     border-color: #FFFFFF;
 }
-            
-.l1{
+
+.l1 {
     width: 40px;
     height: 18px;
     font-weight: 500;
@@ -411,7 +443,8 @@ height: 74px;
     text-align: center;
     color: #081E34;
 }
-.but2{
+
+.but2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -424,7 +457,8 @@ height: 74px;
     border: none;
     border-color: #FFFFFF;
 }
-.l2{
+
+.l2 {
     width: 61px;
     height: 18px;
     font-weight: 500;
@@ -434,9 +468,10 @@ height: 74px;
     align-items: center;
     text-align: center;
     color: #081E34;
-   
+
 }
-.but3{
+
+.but3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -449,7 +484,8 @@ height: 74px;
     border: none;
 
 }
-.l3{
+
+.l3 {
     width: 87px;
     height: 18px;
     font-weight: 500;
@@ -461,7 +497,7 @@ height: 74px;
     color: #081E34;
 }
 
-.menu2{
+.menu2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -471,55 +507,59 @@ height: 74px;
     color: #081E34;
     opacity: 0.5;
 }
-.ph1{
+
+.ph1 {
 
     height: 460px;
-          display: flex;
-          justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .menu2 a {
-     text-decoration: none; 
-     color: inherit;
-     border-bottom: 1px solid #081E34;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid #081E34;
 }
 
-.nfac{
+.nfac {
     font-size: 16px;
     line-height: 18px;
     color: #081E34;
 }
-.lupa{
-     width: 116px;
-     height: 22px;
-     font-size: 18px;
-     line-height: 22px;
-     letter-spacing: 0.04em
+
+.lupa {
+    width: 116px;
+    height: 22px;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.04em
 }
 
-.b1{
+.b1 {
     display: flex;
-          justify-content: center;
-          font-size: 54px;
-          line-height: 56px;
+    justify-content: center;
+    font-size: 54px;
+    line-height: 56px;
 }
 
-@media only screen and (max-width:360px){
-    body{
+@media only screen and (max-width:360px) {
+    body {
         padding: 0px;
     }
-    .header{
+
+    .header {
         display: flex;
         height: 62px;
         align-items: center;
         padding: 0px 24px 0px 24px;
-        
+
     }
 
     .header-list {
         display: none;
     }
-    .lupa{
+
+    .lupa {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -527,22 +567,29 @@ height: 74px;
         gap: 10px;
         height: 22px;
     }
-    .first{
+
+    .first {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 0px;
-        gap: 14px;
-        height: 600px;
-        width: 360px;
+        gap: 100px;
 
     }
-    .ph1{
-        width: 312px;
+
+    .ph1 {
+
+        /* width: 373px; */
         height: 249px;
+        border-radius: 32px;
         padding: 0px 24px 0px 24px;
+
+
+
+
     }
-    .content1{
+
+    .content1 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -554,7 +601,8 @@ height: 74px;
         margin-right: 0px;
         margin-top: -20px;
     }
-    .text1{
+
+    .text1 {
         width: 250px;
         font-size: 32px;
         line-height: 120%;
@@ -562,7 +610,8 @@ height: 74px;
         align-items: center;
         text-align: center;
     }
-    .text2{
+
+    .text2 {
         width: 290px;
         font-size: 14px;
         line-height: 18px;
@@ -570,26 +619,38 @@ height: 74px;
         align-items: center;
         text-align: center;
     }
-    .ph{
-        padding: 0px;
+
+    .ph {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px 24px;
+        gap: 54px;
+
     }
-    .second{
+
+
+
+
+
+    .second {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         /* padding: 54px 24px; */
         margin-top: 0px;
-        gap: 54px;
+        gap: 34px;
 
-        width: 360px;
+        width: 100%;
         height: 686px;
 
         background: #E1DEE7;
         border-radius: 32px;
         padding: 0px;
     }
-    .p1{
+
+    .p1 {
         width: 169px;
         height: 16px;
         font-weight: 400;
@@ -598,10 +659,11 @@ height: 74px;
         display: flex;
         align-items: center;
         margin-top: -150px;
-        
-        
+
+
     }
-    .b1{
+
+    .b1 {
         width: 312px;
         height: 56px;
         font-size: 32px;
@@ -610,21 +672,191 @@ height: 74px;
         display: flex;
         align-items: center;
         text-align: center;
-        padding: 0px 24px 0px 24px;     
-        margin-top: -60px; 
+        padding: 0px 24px 0px 24px;
+        margin-top: -60px;
     }
-    .rows{
+
+    .rows {
         display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 40px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 24px 0px 24px;
+        gap: 0px;
+        width: 100%;
 
-width: 312px;
 
     }
 
-            
+    .i1 {
+        width: 42px;
+        height: 42px;
+        padding-left: 33.19px;
+        padding-top: 54px;
+    }
+
+    .b01 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .b001 {
+        font-size: 14px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .ff2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 24px 0px 24px;
+        gap: 2px;
+        width: 100%;
+    }
+
+    .txt1 {
+        gap: 24px;
+
+    }
+
+    .i2 {
+        width: 42px;
+        height: 42px;
+        padding-left: 33.19px;
+        padding-top: 54px;
+    }
+
+    .i3 {
+        width: 42px;
+        height: 42px;
+        padding-left: 33.19px;
+        padding-top: 54px;
+    }
+
+    .b02 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .b002 {
+        font-size: 14px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .ff {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 24px 0px 24px;
+        gap: 2px;
+        width: 100%;
+    }
+
+    .txt2 {
+        gap: 24px;
+
+    }
+
+    .b03 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .b003 {
+        font-size: 14px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .ff1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 24px 0px 24px;
+        gap: 2px;
+        width: 100%;
+    }
+
+    .txt3 {
+        gap: 24px;
+
+    }
+
+    .GET {
+        font-size: 24px;
+        line-height: 120%;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .THE {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Sf {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .search {
+        box-sizing: border-box;
+        width: 100%;
+        border-radius: 12px;
+
+    }
+
+    .thirdPart {
+        padding: 100px 24px 100px 24px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .input {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        opacity: 0.2;
+    }
+
+
 
 
 
@@ -643,32 +875,3 @@ width: 312px;
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
