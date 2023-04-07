@@ -900,7 +900,67 @@ body {
         line-height: 18px;
         
     }
+    .footer{
+    
+        border-radius: 32px 32px 0px 0px;
+        margin: 0px;
+        gap: 0px;
+        padding: 32px 24px 32px 24px;
+        height: 460px;
+    }
+    .frame22{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+        width: 100%;
+        height: 396px;
+    }
+    .menu1{
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        height: 226px;
+    }
+    .menu1 button {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        background-color: white;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .menu2{
+        width: 100%;
+        padding: 0px;
+        gap: 0px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #081E34;
+        opacity: 0.5;
+        height: 72px;
+        display: block;
 
+
+    }
+    .nfac{
+        width: 100%;
+        height: 18px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        padding-top: 40px;
+        color: #081E34;
+    }
 
 
 
